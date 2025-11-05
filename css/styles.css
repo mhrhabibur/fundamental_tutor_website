@@ -586,4 +586,8 @@ margin-bottom: 2rem;
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+
+  .stats-numbers {
+    flex-direction: column;
+  }
 }
