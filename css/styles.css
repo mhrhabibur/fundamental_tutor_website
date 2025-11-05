@@ -380,7 +380,7 @@ img {
   flex-direction: row-reverse;
 }
 .details ul {
-margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .details ul li {
@@ -389,6 +389,52 @@ margin-bottom: 2rem;
 
 .details i {
   margin-right: 0.5rem;
+}
+
+.stats-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+.stats {
+  background: url(../images/stats-background.jpg) center center/cover no-repeat;
+  color: #fff;
+}
+
+.stats img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.stats-content {
+  max-width: 500px;
+}
+
+.stats-description {
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+
+.stats-numbers {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.stats-numbers h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.stats .btn {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
 }
 
 @media (max-width: 1200px) {
@@ -404,15 +450,23 @@ margin-bottom: 2rem;
     padding: 2px;
   }
 
+
+  .stats-flex {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
   .details-flex {
     gap: 4rem;
     flex-direction: column;
     margin-bottom: 2rem;
   }
-.list-item {
-  text-align: justify;
-  margin: 2rem;
-}
+  .list-item {
+    text-align: justify;
+    margin: 2rem;
+  }
   .author-flex {
     gap: 4rem;
     flex-direction: column;
